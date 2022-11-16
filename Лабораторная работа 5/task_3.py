@@ -1,7 +1,7 @@
 import random
 
 def get_unique_list_numbers() -> list[int]:
-    unique_numbers = set(range(-10, 10))
+    unique_numbers = set(range(-10, 11))
     list_unique_numbers = [n for n in unique_numbers]
     random.shuffle(list_unique_numbers)
     return list_unique_numbers[:15]
